@@ -1,7 +1,5 @@
 ﻿body{width: 100%;height: 100%;padding: 0;margin: 0;}
 
-.content{width:1297px;margin:0 auto;}
-
 .bottom-header-content,.top-header-content,.service-content,.active-mobile-content,.about-us-content,.support-content{width: 963px;margin: 0 auto;}
 
 .top-header {background-color: rgb( 26, 26, 26 );height: 53px;}
@@ -222,9 +220,9 @@ input[type="search"] {background: #f6f6f6 url(../img/Search.png) no-repeat 95% 5
 footer{ height: 839px;position: relative;top: -2px;}
 
 .map {background-image: url(../img/Map.png);height: 500px;text-align: center;}
- 
+
 .map:before {content: '';display: inline-block;height: 100%;vertical-align: middle;margin-right: -0.25em;}
- 
+
 #map{display: inline-block;vertical-align: middle;width: 71%;}
 
 .address,.form {float: left;background-color: #00adf0;margin-top: 20px;}
@@ -239,8 +237,8 @@ footer{ height: 839px;position: relative;top: -2px;}
 
 input[type="text"],input[type="email"],textarea{font: 13pt "OpenSansRegular";background-color: #008cbf;float: left;color: white;}
 
-input[type="text"]::-moz-placeholder,input[type="email"]::-moz-placeholder,textarea::-moz-placeholder {color: white;} 
-   
+input[type="text"]::-moz-placeholder,input[type="email"]::-moz-placeholder,textarea::-moz-placeholder {color: white;}
+
 input[type="text"]::-webkit-input-placeholder,input[type="email"]::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color: white;}
 
 input[type="text"],input[type="email"]{ width: 44.5%;border: 0;padding: 5px 0 5px 15px;margin-top: 5px;}
