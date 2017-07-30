@@ -116,12 +116,76 @@ input[type="search"] {
     right: 5px;
 }
 
-
 /*slider*/
 
-.slider {
-    height: 445px;
-    background: green;
+.main-slider {
+    overflow: hidden;
+    background: url(../img/background-slider.png) no-repeat;
+    background-size: cover;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.main-slider .owl-carousel .owl-item .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 135px;
+    float: none !important;
+    width: auto;
+}
+
+.main-slider .owl-carousel .owl-item h2 {
+    display: block;
+    margin: 0 120px 0 0;
+    color: white;
+    font: 30pt "SourceSansProLight";
+}
+
+.main-slider .owl-carousel .owl-item h2 .welcome,
+.main-slider .owl-carousel .owl-item h2 .join-with {
+    font: bold 30pt "SourceSansProSemiBold";
+}
+
+.main-slider .owl-carousel .owl-item p {
+    background: url(../img/background_item_of_slider.png) no-repeat;
+    display: block;
+    padding: 25px 23px;
+    color: black;
+    font: 12pt "SourceSansProLight";
+    width: auto;
+}
+
+.main-slider .owl-carousel .owl-nav {
+    position: relative;
+}
+
+.main-slider .owl-theme .owl-nav .owl-prev {
+    position: absolute;
+    left: 0;
+    top: -250px;
+    background: url(../img/arrow-left.png) no-repeat !important;
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.main-slider .owl-theme .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+    top: -250px;
+    background: url(../img/arrow-right.png) no-repeat !important;
+    height: 100px !important;
+    width: 100px !important;
 }
 
 
@@ -804,6 +868,7 @@ textarea {
     position: relative;
     top: 2px;
 }
+
 
 
 /*.socials-footer-images img:first-of-type{ position: relative;left: -5px;}
