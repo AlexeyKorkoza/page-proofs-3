@@ -141,7 +141,7 @@ input[type="search"] {
     -ms-flex-align: center;
     align-items: center;
     padding-top: 135px;
-    float: none !important;
+    float: none;
     width: auto;
 }
 
@@ -175,8 +175,8 @@ input[type="search"] {
     left: 90px;
     top: -250px;
     background: url(../img/arrow-left.png) no-repeat !important;
-    height: 100px !important;
-    width: 100px !important;
+    height: 100px;
+    width: 100px;
 }
 
 .main-slider .owl-theme .owl-nav .owl-next {
@@ -184,8 +184,8 @@ input[type="search"] {
     right: 0;
     top: -250px;
     background: url(../img/arrow-right.png) no-repeat !important;
-    height: 100px !important;
-    width: 100px !important;
+    height: 100px;
+    width: 100px;
 }
 
 .owl-theme .owl-dots .owl-dot span {
