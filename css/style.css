@@ -172,7 +172,7 @@ input[type="search"] {
 
 .main-slider .owl-theme .owl-nav .owl-prev {
     position: absolute;
-    left: 0;
+    left: 90px;
     top: -250px;
     background: url(../img/arrow-left.png) no-repeat !important;
     height: 100px !important;
@@ -188,6 +188,14 @@ input[type="search"] {
     width: 100px !important;
 }
 
+.owl-theme .owl-dots .owl-dot span {
+  background: none;
+  border: 3px solid white;
+}
+
+.owl-theme .owl-dots .owl-dot span:hover {
+  background: #149dd2;
+}
 
 /*endslider*/
 
