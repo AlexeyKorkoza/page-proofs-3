@@ -117,6 +117,7 @@ input[type="search"] {
 }
 
 
+
 /*slider*/
 
 .main-slider {
@@ -197,6 +198,7 @@ input[type="search"] {
 .owl-theme .owl-dots .owl-dot span:hover {
     background: #149dd2;
 }
+
 
 
 /*endslider*/
@@ -507,10 +509,18 @@ input[type="search"] {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    margin-right: 15px;
 }
 
-.testimonials {
-    margin-right: 15px;
+.testimonials h1 {
+    text-align: left;
+    font: 20pt "OpenSansSemiBold";
+    color: #606060;
+    margin: 22px 0 35px 15px;
+}
+
+.testimonials h1 span {
+    font: 20pt "OpenSansLight";
 }
 
 .testimonials .owl-carousel .owl-item .item {
@@ -518,11 +528,19 @@ input[type="search"] {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    height: auto;
+    overflow: hidden;
 }
 
 .testimonials .owl-carousel .owl-item .item .photo {
-    margin: 0 45px 0 15px;
+    height: 0;
+    padding: 0;
+    margin: 0 35px 0 5px;
     border: none;
+}
+
+.testimonials .owl-carousel .owl-item .item .photo img {
+    height: 140px;
 }
 
 .testimonials .owl-carousel .owl-item .item .photo img {
@@ -531,7 +549,10 @@ input[type="search"] {
 }
 
 .testimonials .owl-carousel .owl-item .item .about-client {
+    height: auto;
+    overflow: hidden;
     border: none;
+    padding: 0;
 }
 
 .testimonials .owl-carousel .owl-nav {
@@ -548,15 +569,14 @@ input[type="search"] {
 }
 
 .testimonials .owl-carousel .owl-nav .owl-prev {
-  height: 25px;
-  background: url(../img/Testimonials-Right.png) no-repeat;
+    height: 25px;
+    background: url(../img/Testimonials-Right.png) no-repeat;
 }
 
 .testimonials .owl-carousel .owl-nav .owl-next {
-  height: 25px;
-  background: url(../img/Testimonials-Left.png) no-repeat;
+    height: 25px;
+    background: url(../img/Testimonials-Left.png) no-repeat;
 }
-
 
 .testimonials,
 .testimonials-left,
@@ -565,22 +585,6 @@ input[type="search"] {
 .testimonials h1,
 .skills h1 {
     float: left;
-}
-
-.testimonials h1,
-.skills h1 {
-    font: 20pt "OpenSansSemiBold";
-    color: #606060;
-    margin: 22px 0 40px 15px;
-}
-
-.testimonials h1 {
-    text-align: left;
-}
-
-.testimonials h1 span,
-.skills h1 span {
-    font: 20pt "OpenSansLight";
 }
 
 .testimonials-arrows {
@@ -594,15 +598,29 @@ input[type="search"] {
     margin-left: 5px;
 }
 
-.testimonials p:first-of-type {
-    font: 11.5pt "OpenSansRegular";
+.testimonials .option {
+    text-align: justify;
+    font: 10.5pt "OpenSansRegular";
 }
 
-.testimonials p:first-of-type span {
-    font: 21pt "OpenSansRegular";
+.testimonials .option:before,
+.testimonials .option:after {
+    content: '“';
+    position: relative;
+    font: 36pt "OpenSansRegular";
+    line-height: 0;
 }
 
-.testimonials p:last-of-type {
+.testimonials .option:before {
+  top: 15px;
+}
+
+.testimonials .option:after {
+  top: 30px;
+}
+
+
+.testimonials .who:last-of-type {
     float: right;
     width: 50%;
     text-align: right;
@@ -615,12 +633,26 @@ input[type="search"] {
 }
 
 .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     margin-left: 15px;
     width: 47%;
 }
 
 .skills h1 {
     margin-left: 0;
+    font: 20pt "OpenSansSemiBold";
+    color: #606060;
+    margin: 22px 0 30px;
+}
+
+.skills h1 span {
+    font: 20pt "OpenSansLight";
 }
 
 .wrapper {
@@ -640,16 +672,11 @@ input[type="search"] {
     background-color: #00adf0;
 }
 
-.android,
 .apple,
 .blackbeery,
 .more {
     float: left;
     margin-top: -15px;
-}
-
-.android {
-    margin-top: -20px;
 }
 
 .android img,
@@ -926,6 +953,7 @@ textarea {
     position: relative;
     top: 2px;
 }
+
 
 
 
